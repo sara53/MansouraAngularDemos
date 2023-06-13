@@ -1,0 +1,14 @@
+1- install Node JS
+2- install typescript ==> npm i -g typescript
+3- tsc filename.ts 
+4- tsc filename.ts -w ==> watch 
+5- npm i -g @angular/cli
+6- ng new projectName (to create new Project)
+7- ng serve -o (to run project)
+
+
+/*=================*/
+https://jamboard.google.com/d/1NJJLftj5_otMhBrGKIQg6_7NGgX7RXNsqZqKJhz7F3k/edit?usp=sharing
+/*================*/
+
+https://drive.google.com/drive/folders/1G97K2kvxfbTla9WSFpHzZ0hfEHfnrv2f
