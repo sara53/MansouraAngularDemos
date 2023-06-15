@@ -1,0 +1,32 @@
+<div class="container p-5 text-center">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Product Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <th scope="row">{{ product.id }}</th>
+        <td>{{ product.productName }}</td>
+        <td>{{ product.price }}</td>
+        <td>{{ product.quantity }}</td>
+        <td>
+          <i
+            [routerLink]="['/products', product.id]"
+            class="fs-2 text-warning mx-1 bi bi-eye-fill"
+          ></i>
+          <i
+            [routerLink]="['/products', product.id, 'edit']"
+            class="fs-2 text-info mx-1 bi bi-pencil-square"
+          ></i>
+          <i class="fs-2 text-danger mx-1 bi bi-trash3"></i>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
