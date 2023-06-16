@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Iphone",
+      "price": "200",
+      "quantity": 10
+    },
+    {
+      "productName": "watch",
+      "price": 10,
+      "quantity": 600,
+      "id": 3
+    },
+    {
+      "id": 5,
+      "productName": "Chair",
+      "price": "677",
+      "quantity": 77
+    },
+    {
+      "productName": "Sumsung",
+      "price": 400,
+      "quantity": 44,
+      "id": 6
+    },
+    {
+      "productName": "new Watch",
+      "price": 111,
+      "quantity": 22,
+      "id": 7
+    },
+    {
+      "productName": "new p",
+      "price": 55,
+      "quantity": 66,
+      "id": 8
+    }
+  ]
+}

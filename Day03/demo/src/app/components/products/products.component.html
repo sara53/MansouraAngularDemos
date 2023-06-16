@@ -13,7 +13,7 @@
       <tr *ngFor="let product of products">
         <th scope="row">{{ product.id }}</th>
         <td>{{ product.productName }}</td>
-        <td>{{ product.price }}</td>
+        <td>{{ product.price | currency }}</td>
         <td>{{ product.quantity }}</td>
         <td>
           <i
@@ -24,7 +24,10 @@
             [routerLink]="['/products', product.id, 'edit']"
             class="fs-2 text-info mx-1 bi bi-pencil-square"
           ></i>
-          <i class="fs-2 text-danger mx-1 bi bi-trash3"></i>
+          <i
+            (click)="deleteProductHandler(product.id)"
+            class="fs-2 text-danger mx-1 bi bi-trash3"
+          ></i>
         </td>
       </tr>
     </tbody>

@@ -7,4 +7,8 @@
  * --- Angular Life Cycle // Done
  * ------------------------------------
  * === Angular Routing
+ * ------------------------------------
+ * == Reactive Form
+ * == Services
+ * == Connection With API (CRUD Operation)
  */
